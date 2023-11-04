@@ -1,0 +1,26 @@
+﻿Build started 6/4/2021 5:18:28 PM.
+     1>Project "C:\Users\Windows User\Desktop\kpz_video\kpz_video\kpz_video.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ai_32_2019_ai_34_2019_kpz.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\VS2010\VC\bin\CL.exe /c /I"C:\Program Files\OpenCV264D\include" /I"C:\Program Files\OpenCV264D\buildInclude\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\windows user\desktop\kpz_video\kpz_video\main.cpp(42): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\windows user\desktop\kpz_video\kpz_video\main.cpp(146): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\windows user\desktop\kpz_video\kpz_video\main.cpp(191): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>c:\users\windows user\desktop\kpz_video\kpz_video\main.cpp(192): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>c:\users\windows user\desktop\kpz_video\kpz_video\main.cpp(193): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>c:\users\windows user\desktop\kpz_video\kpz_video\main.cpp(300): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         d:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Windows User\Desktop\kpz_video\Debug\ai_32_2019_ai_34_2019_kpz.exe" /NOLOGO /LIBPATH:"C:\Program Files\OpenCV264D\libDebug" opencv_calib3d246d.lib opencv_contrib246d.lib opencv_core246d.lib opencv_features2d246d.lib opencv_flann246d.lib opencv_gpu246d.lib opencv_highgui246d.lib opencv_imgproc246d.lib opencv_legacy246d.lib opencv_ml246d.lib opencv_nonfree246d.lib opencv_objdetect246d.lib opencv_photo246d.lib opencv_stitching246d.lib opencv_superres246d.lib opencv_ts246d.lib opencv_video246d.lib opencv_videostab246d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ai_32_2019_ai_34_2019_kpz.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Windows User\Desktop\kpz_video\Debug\ai_32_2019_ai_34_2019_kpz.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Windows User\Desktop\kpz_video\Debug\ai_32_2019_ai_34_2019_kpz.lib" /MACHINE:X86 Debug\main.obj
+         kpz_video.vcxproj -> C:\Users\Windows User\Desktop\kpz_video\Debug\ai_32_2019_ai_34_2019_kpz.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Windows User\Desktop\kpz_video\Debug\ai_32_2019_ai_34_2019_kpz.exe;#1" /manifest Debug\ai_32_2019_ai_34_2019_kpz.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\ai_32_2019_ai_34_2019_kpz.unsuccessfulbuild".
+         Touching "Debug\ai_32_2019_ai_34_2019_kpz.lastbuildstate".
+     1>Done Building Project "C:\Users\Windows User\Desktop\kpz_video\kpz_video\kpz_video.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.58
